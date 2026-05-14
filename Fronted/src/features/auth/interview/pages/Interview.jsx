@@ -2,8 +2,7 @@
 import React, { useState, useEffect } from 'react'
 // import '../style/interview.scss'
 import "./style/interview.scss"
-// import { useInterview } from '../hooks/useInterview'
-import { useInterview } from "../hooks/useInterview";
+import { useInterview } from '../hooks/useInterview'
 import { useParams } from 'react-router-dom'   // ✅ FIX
 
 const NAV_ITEMS = [
