@@ -4,7 +4,8 @@ const app=exprees();
 const cors=require("cors");
 app.use(exprees.json());
 app.use(cors({
-    origin:"http://localhost:5173",
+    // origin:"http://localhost:5173",
+     origin: "https://ai-powered-job-preparation-platform.onrender.com",
     credentials:true 
 }));
 app.use(cookieParser());
