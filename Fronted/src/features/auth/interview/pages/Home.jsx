@@ -1,7 +1,8 @@
 import React from 'react'
 import { useState, useRef } from 'react';
 import { useNavigate } from 'react-router';
-import { useInterview } from '../hooks/useinterview';
+// import { useInterview } from '../hooks/useinterview';
+import { useInterview } from "../hooks/useInterview";
 
 import './style/home.scss'
 function Home() {
